@@ -1,0 +1,74 @@
+body {
+    font-family: "Oswald", sans-serif;
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+    background-image: url(./img/200w.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+h2 {
+    color: #ffffff;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7); /* Sombra mais pronunciada */
+}
+
+h1{
+    color: rgb(255, 255, 255);
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 20px;
+}
+
+.fridge {
+    animation: rotate 5s infinite linear;
+    margin-right: 50px;
+}
+
+.geladeira {
+    width: 40px;
+}
+
+.app-container {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+}
+
+.app {
+    background: #00000011;
+    border: 1px solid #ffffff93;
+    margin: 10px 0;
+    padding: 15px;
+    border-radius: 5px;
+}
+
+footer {
+
+    color: white;
+    padding: 20px; 
+    position: relative; 
+    padding-left: 110px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+}
+
+
+footer a {
+    color: #f7f8ff; 
+    text-decoration: none; 
+}
+
+footer a:hover {
+    text-decoration: none; 
+}
+
+
+
+@keyframes rotate {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}

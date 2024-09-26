@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gelalogo</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <div class="fridge">
+            <img src="./img/engrenagem.png" alt="asdsadsad" class="geladeira">
+        </div>
+        
+        <div class="app-container">
+            <h1>GELALOGO<br>FUNÇÕES</h1>
+            <div class="app" id="adicaoProduto">
+                <h2>ADIÇÃO DE PRODUTO</h2>
+                <input type="text" placeholder="Nome">
+                <input type="number" placeholder="Quantidade">
+                <input type="date" placeholder="Vencimento">
+                <button onclick="adicionarProduto()">Adicionar</button>
+            </div>
+
+            <div class="app" id="remocaoProduto">
+                <h2>REMOÇÃO DE PRODUTO</h2>
+                <input type="text" placeholder="Nome">
+                <button onclick="removerProduto()">Remover</button>
+            </div>
+
+            <div class="app" id="adicaoReceita">
+                <h2>ADIÇÃO DE RECEITA</h2>
+                <input type="text" placeholder="Nome da Receita">
+                <button onclick="adicionarReceita()">Adicionar</button>
+            </div>
+
+            <div class="app" id="remocaoReceita">
+                <h2>REMOÇÃO DE RECEITA</h2>
+                <input type="text" placeholder="Nome da Receita">
+                <button onclick="removerReceita()">Remover</button>
+            </div>
+
+            <div class="app" id="receitasInteligentes">
+                <h2>RECEITAS INTELIGENTES</h2>
+                <button onclick="sugerirReceitas()">Sugerir Receitas</button>
+                <div id="receitasSugestao"></div>
+            </div>
+
+            <div class="app" id="controleTemperatura">
+                <h2>CONTROLE DE TEMPERATURA</h2>
+                <input type="number" placeholder="Temperatura">
+                <button onclick="regulaTemperatura()">Regular</button>
+            </div>
+
+            <div class="app" id="listaCompras">
+                <h2>LISTA DE COMPRAS</h2>
+                <button onclick="exibirCompras()">Exibir Compras</button>
+                <div id="lista"></div>
+            </div>
+
+            <div class="app" id="alertasValidade">
+                <h2>ALERTAS DE VALIDADE</h2>
+                <button onclick="verificarValidade()">Verificar</button>
+                <div id="alertas"></div>
+            </div>
+
+            <div class="app" id="musicaEntretenimento">
+                <h2>MÚSICA E ENTRETENIMENTO</h2>
+                <button onclick="tocarMusica()">Tocar Música</button>
+            </div>
+        </div>
+    </div>
+    
+    <footer>
+        <p>Feito por: Álvaro Duda da Hora | Matricula: 01600199</p>
+        <p>
+            <a href="https://github.com/alvaroduda/GeladeiraApps" target="_blank">Repositório desse projeto no GitHub</a>
+        </p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
