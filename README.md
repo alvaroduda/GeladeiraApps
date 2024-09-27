@@ -11,7 +11,7 @@
 
   Remoção Produto: Quando for tirar algo da geladeira se registra nela uma remoção de produto.
 
-  Adição de Receita: Você pode montar um receita para ficar salva na geladeira.
+  Adição de Receita: Você pode montar uma receita para ficar salva na geladeira.
 
   Remoção de Receita: Você pode remover alguma receita adicionada.
 
